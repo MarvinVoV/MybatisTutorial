@@ -4,24 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>sun.mybatis.demo</groupId>
-    <artifactId>mybatis-demo</artifactId>
+    <groupId>sun.mybatis.tutorial</groupId>
+    <artifactId>mybatis-tutorial</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jdk.version>1.7</jdk.version>
+        <jdk.version>1.8</jdk.version>
     </properties>
 
     <dependencies>
-
-
-        
-		<dependency>
-			<groupId>org.mybatis</groupId>
-			<artifactId>mybatis</artifactId>
-			<version>3.2.8</version>
-		</dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.4.6</version>
+        </dependency>
 
         <!-- Database Drive -->
         <dependency>
@@ -30,6 +27,12 @@
             <version>5.1.18</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
+            <scope>provided</scope>
+        </dependency>
 
         <!-- Log -->
         <dependency>
@@ -54,10 +57,17 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.54</version>
+        </dependency>
+
     </dependencies>
 
-
     <build>
+        <sourceDirectory>src/main/java</sourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
