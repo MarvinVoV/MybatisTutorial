@@ -1,8 +1,4 @@
-/**
- * Alipay.com Inc.
- * Copyright (c) 2004-2019 All Rights Reserved.
- */
-package sun.mybatis.tutorial.entity;
+package com.marvin.mybatis.tutorial.entity;
 
 import lombok.*;
 
@@ -18,7 +14,7 @@ public class Student {
     private String name;
     private String branch;
     private int    percentage;
-    private int    phone;
+    private String phone;
     private String email;
 
 }
