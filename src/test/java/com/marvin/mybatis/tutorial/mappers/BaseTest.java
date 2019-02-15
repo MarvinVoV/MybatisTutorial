@@ -31,8 +31,6 @@ public class BaseTest {
 
         // populate in-memory database
         BaseDataTest.runScript(sqlSessionFactory.getConfiguration().getEnvironment().getDataSource(),
-                "student-schema.sql");
+                "schema.sql");
     }
-
-
 }

@@ -40,6 +40,7 @@
 
     <mappers>
         <mapper resource="mapper/Student.xml"/>
+        <mapper resource="mapper/Author.xml"/>
     </mappers>
 
 </configuration>

@@ -21,7 +21,7 @@ import java.util.Properties;
  */
 public class BaseDataTest {
 
-    public static final String DDL = "student-schema.sql";
+    public static final String DDL = "schema.sql";
     public static final String CONFIG = "config.properties";
 
 
