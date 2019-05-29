@@ -1,6 +1,6 @@
-package com.marvin.mybatis.tutorial.mappers;
+package sun.mybatis.analysis.mappers;
 
-import com.marvin.mybatis.tutorial.entity.Student;
+import sun.mybatis.analysis.entity.Student;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.After;
 import org.junit.Before;

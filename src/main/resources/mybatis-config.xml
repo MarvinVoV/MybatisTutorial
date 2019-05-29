@@ -14,11 +14,11 @@
     </typeAliases>
 
     <typeHandlers>
-        <typeHandler handler="com.marvin.mybatis.tutorial.typehandlers.ExampleTypeHandler"/>
+        <typeHandler handler="sun.mybatis.analysis.typehandlers.ExampleTypeHandler"/>
     </typeHandlers>
 
     <plugins>
-        <plugin interceptor="com.marvin.mybatis.tutorial.plugins.ExamplePlugin">
+        <plugin interceptor="sun.mybatis.analysis.plugins.ExamplePlugin">
             <property name="someThing" value="100"/>
         </plugin>
     </plugins>

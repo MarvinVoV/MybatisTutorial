@@ -1,5 +1,5 @@
 
-package com.marvin.mybatis.tutorial.typehandlers;
+package sun.mybatis.analysis.typehandlers;
 
 import org.apache.ibatis.type.BaseTypeHandler;
 import org.apache.ibatis.type.JdbcType;

@@ -1,4 +1,4 @@
-package com.marvin.mybatis.tutorial.plugins;
+package sun.mybatis.analysis.plugins;
 
 import org.apache.ibatis.executor.Executor;
 import org.apache.ibatis.mapping.MappedStatement;

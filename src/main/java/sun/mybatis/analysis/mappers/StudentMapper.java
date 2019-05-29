@@ -1,7 +1,7 @@
 
-package com.marvin.mybatis.tutorial.mappers;
+package sun.mybatis.analysis.mappers;
 
-import com.marvin.mybatis.tutorial.entity.Student;
+import sun.mybatis.analysis.entity.Student;
 
 import java.util.List;
 

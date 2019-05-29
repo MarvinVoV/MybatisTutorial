@@ -1,4 +1,4 @@
-package com.marvin.mybatis.tutorial.entity;
+package sun.mybatis.analysis.entity;
 
 import lombok.*;
 
