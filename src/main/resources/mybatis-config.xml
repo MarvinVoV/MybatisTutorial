@@ -10,7 +10,7 @@
     </settings>
 
     <typeAliases>
-        <package name="com.marvin.mybatis.tutorial.entity"/>
+        <package name="sun.mybatis.analysis.domain.blog"/>
     </typeAliases>
 
     <typeHandlers>
@@ -39,8 +39,7 @@
 
 
     <mappers>
-        <mapper resource="mapper/Student.xml"/>
-        <mapper resource="mapper/Author.xml"/>
+        <mapper resource="mapper/TagMapper.xml"/>
     </mappers>
 
 </configuration>
