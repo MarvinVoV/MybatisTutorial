@@ -5,11 +5,10 @@
 package sun.mybatis.analysis.mappers;
 
 import sun.mybatis.analysis.domain.blog.Tag;
-import sun.mybatis.analysis.entity.Student;
 
 /**
  * @author hufeng
- * @version 1.0: TagMapper.java, v 0.1 2019年05月30日 23:37 hufeng Exp $
+ * @version 1.0: TagMapper.xml.java, v 0.1 2019年05月30日 23:37 hufeng Exp $
  */
 public interface TagMapper {
     int insert(Tag tag);

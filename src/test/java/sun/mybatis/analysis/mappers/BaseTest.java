@@ -11,7 +11,9 @@ import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
+import java.io.InputStream;
 import java.io.Reader;
+import java.net.URL;
 
 /**
  * @author hufeng

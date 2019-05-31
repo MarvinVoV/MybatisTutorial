@@ -9,7 +9,7 @@
     </resultMap>
 
     <insert id="insert" useGeneratedKeys="true" keyProperty="id" statementType="PREPARED">
-        insert into Author (id, name)
+        insert into tag (id, name)
         values (NULL, #{name})
     </insert>
 
